@@ -10,7 +10,8 @@ import dotenv from "dotenv"
 import axios from 'axios';
 dotenv.config();
 
-axios.defaults.baseURL = "back-end-production-9506.up.railway.app" || "http://localhost:3001";
+//axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL = "back-end-production-9506.up.railway.app";
 
 ReactDOM.render(
   <Provider store={store}>
