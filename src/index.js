@@ -10,8 +10,7 @@ import { Provider } from 'react-redux'
 import axios from 'axios';
 // dotenv.config();
 
-//axios.defaults.baseURL = "http://localhost:3001";
-axios.defaults.baseURL = "back-end-production-9506.up.railway.app";
+axios.defaults.baseURL = "back-end-production-9506.up.railway.app" || "http://localhost:3001";
 
 ReactDOM.render(
   <Provider store={store}>
