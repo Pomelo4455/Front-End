@@ -6,9 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import store from './redux/store';
 import { Provider } from 'react-redux'
-import dotenv from "dotenv"
+// import dotenv from "dotenv"
 import axios from 'axios';
-dotenv.config();
+// dotenv.config();
 
 //axios.defaults.baseURL = "http://localhost:3001";
 axios.defaults.baseURL = "back-end-production-9506.up.railway.app";
