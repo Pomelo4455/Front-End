@@ -10,7 +10,7 @@ import { Provider } from 'react-redux'
 import axios from 'axios';
 // dotenv.config();
 
-axios.defaults.baseURL = "back-end-production-5d31.up.railway.app";
+axios.defaults.baseURL = "https://back-end-production-5d31.up.railway.app";
 /* axios.defaults.baseURL = "http://localhost:3001"; */
 
 ReactDOM.render(
